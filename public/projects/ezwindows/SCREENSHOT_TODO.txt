@@ -1,0 +1,2 @@
+Failed to capture https://ezwindows.com.au on 2026-08-22T21:39:27.131Z
+page.screenshot: type: expected one of (png|jpeg)

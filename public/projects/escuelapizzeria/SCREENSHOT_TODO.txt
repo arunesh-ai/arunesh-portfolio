@@ -1,0 +1,2 @@
+Failed to capture https://escuelapizzeria.es/ on 2026-08-22T21:39:34.852Z
+page.screenshot: type: expected one of (png|jpeg)

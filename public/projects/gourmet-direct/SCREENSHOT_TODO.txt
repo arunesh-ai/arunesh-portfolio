@@ -1,0 +1,2 @@
+Failed to capture https://gourmetdirect.co.nz on 2026-08-22T21:39:12.120Z
+page.screenshot: type: expected one of (png|jpeg)

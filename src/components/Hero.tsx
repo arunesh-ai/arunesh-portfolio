@@ -2,10 +2,16 @@ import { site } from '@/data/site'
 import { MagneticButton } from '@/components/MagneticButton'
 import { PhysicsPlayground } from '@/components/PhysicsPlayground'
 
-const chips = {
-  primary: ['WEB', 'BACKEND', 'APIs', 'PHP', 'JAVASCRIPT', 'DATABASES'],
-  secondary: ['WORDPRESS', 'WOOCOMMERCE'],
-}
+const chips = [
+  'WEB',
+  'BACKEND',
+  'APIs',
+  'PHP',
+  'JAVASCRIPT',
+  'DATABASES',
+  'WORDPRESS',
+  'WOOCOMMERCE',
+]
 
 export function Hero() {
   return (
@@ -88,21 +94,10 @@ export function Hero() {
             </dl>
 
             <div className="mt-5 flex flex-wrap items-center gap-2 border-t border-border pt-4 md:mt-6">
-              {chips.primary.map((c) => (
+              {chips.map((c) => (
                 <span
                   key={c}
                   className="border border-border bg-bg-elevated/70 px-2.5 py-1 font-mono text-[9px] tracking-[0.14em] text-muted uppercase md:text-[10px]"
-                >
-                  {c}
-                </span>
-              ))}
-              <span className="mx-1 hidden text-faint sm:inline" aria-hidden>
-                ·
-              </span>
-              {chips.secondary.map((c) => (
-                <span
-                  key={c}
-                  className="border border-border/60 bg-bg-elevated/40 px-2.5 py-1 font-mono text-[9px] tracking-[0.14em] text-faint uppercase md:text-[10px]"
                 >
                   {c}
                 </span>

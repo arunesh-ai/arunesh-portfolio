@@ -98,7 +98,7 @@ export const skillCategories: SkillCategory[] = [
       'cPanel',
       'phpMyAdmin',
       'FileZilla',
-      'Figma',
+      // 'Figma',
     ],
   },
 ]
